@@ -19,7 +19,7 @@ def main(xml_url, exclude_keywords):
     return filtered_urls
 
 # Example usage
-xml_url = 'https://allabouttattoo.com/post-sitemap.xml'  # Replace with the actual XML URL
+xml_url = 'https://example.com/post-sitemap.xml'  # Replace with the actual XML URL
 exclude_keywords = ['.jpg', '.png', '.js', 'wp-content']
 urls = main(xml_url, exclude_keywords)
 
