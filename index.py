@@ -54,5 +54,4 @@ def main(urls):
             save_content_to_doc(text_content, url.split('/')[3])  # Filename from URL
 
 # Example usage
-# urls=["https://allabouttattoo.com/neck-lip-tattoo/","https://allabouttattoo.com/do-finger-tattoos-hurt/"]
 main(urls)
